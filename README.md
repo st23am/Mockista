@@ -11,13 +11,17 @@ Feature:
 
 
 rails g mockista:install
+```
   - created 'app/mocks' directory
-
+```
 rails g mocista:mock Cat
+```
   - created 'apps/mocks/cat'
+```
 
 vim app/mocks/cat
-----------------------------------------
+```YAML
+#----------------------------------------
 Thing: Cat
 
 Fields:
@@ -31,5 +35,6 @@ Pages:
   #edit:    /cats/edit
   #create:  /cats/create
   #destroy: /cats/destroy
-  
-------------------------------------------
+
+#------------------------------------------
+```
